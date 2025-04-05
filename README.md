@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- **Live Site URL**: [https://calculatorapp124.netlify.app/]
+- Live Site URL: [Live site URL here](https://calculatorapp124.netlify.app/)
 
 ## My Process
 
