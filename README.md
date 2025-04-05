@@ -34,8 +34,7 @@ Users should be able to:
 
 ### Links
 
-- **Solution URL**: [Add solution URL here]
-- **Live Site URL**: [Add live site URL here]
+- **Live Site URL**: [https://calculatorapp124.netlify.app/]
 
 ## My Process
 
@@ -52,7 +51,7 @@ Users should be able to:
 - Implemented a three-state toggle button for theme switching.
 - Enhanced understanding of responsive design and browser storage for theme preferences.
 
-```css
+````css
 .radio {
   display: flex;
   justify-content: center;
@@ -95,15 +94,37 @@ Users should be able to:
   }
 }
 
+
+```js
+const arr = [...radioBtns];
+// console.log(arr);
+
+arr.forEach((element) => {
+  element.addEventListener("click", () => {
+    element.style.opacity = "1";
+
+    arr
+      .filter((item) => item != element)
+      .forEach((item) => {
+        item.style.opacity = "0";
+      });
+  });
+});
+````
+
 ### Continued development
 
 I'll keep pushing myself to becoming better at programming. I really love programming, I don't ever regret the day I made the decision to join.
 
 ### Useful resources
 
-- Resource - This helped me in the implementation of the three state toggle section used for toggling the theme of the webpage
+- [CSS Tricks](https://css-tricks.com/) - Helped me understand and implement the three-state toggle button for theme switching.
+- [MDN Web Docs](https://developer.mozilla.org/) - A valuable resource for understanding responsive design and browser storage.
 
 ## Author
 
 [Author](https://kumaradithya123.netlify.app/)
+
+```
+
 ```
